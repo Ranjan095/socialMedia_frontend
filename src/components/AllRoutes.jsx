@@ -1,9 +1,9 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import Login from "../pages/auth/Login";
-import Signup from "../pages/auth/Signup";
-import Page_not_found from "../pages/Page_not_found";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from '../pages/Home';
+import Login from '../modules/auth/Login';
+import Signup from '../modules/auth/Signup';
+import Page_not_found from '../pages/Page_not_found';
 
 const AllRoutes = () => {
   return (
